@@ -1,3 +1,4 @@
+-- the purpose : to create the database and the schemas for the DWH project
 -- Connect to the master database first
 USE master;
 GO
