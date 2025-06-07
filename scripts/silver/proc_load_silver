@@ -239,8 +239,7 @@ BEGIN
             ID,
             CAT,
             SUBCAT,
-            MAINTENANCE,
-            created_at
+            MAINTENANCE
         )
         SELECT * FROM bronze.erp_PX_CAT_G1V2;
 
