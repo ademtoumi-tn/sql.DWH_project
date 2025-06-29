@@ -39,7 +39,7 @@ Each dimension includes:
 
 ## ⚙️ Tech Stack
 
-- **Database**: PostgreSQL / MySQL / SQL Server (choose one)
+- **Database**: SQL server
 - **ETL**: Python (Pandas, SQLAlchemy) or Apache Airflow
 - **Data Modeling**: dbt (optional)
 - **Analytics & Visualization**: SQL + Power BI / Tableau / Metabase
