@@ -21,7 +21,7 @@ order by products_number desc;
 --total cost by category
 select
 category,
-sum(prd_cost) as total_cost
+avg(prd_cost) as avg_cost
 from gold.dim_products
 group by category
-order by total_cost desc
+order by avg_cost desc
