@@ -10,7 +10,7 @@ This project is designed to:
 - Build a scalable **data warehouse** architecture.
 - Ingest, clean, and transform raw data using **ETL processes**.
 - Design **fact and dimension tables** (star schema).
-- Perform **data analysis** using SQL and BI tools.
+- Perform **data analysis** using SQLs.
 - Enable **historical tracking**, **KPI generation**, and **dashboarding**.
 
 ---
@@ -36,7 +36,11 @@ Each dimension includes:
 - Technical columns for tracking (`insert_date`, `is_active`, `effective_date`, etc.)
 
 ---
-
+### Analysis
+- exploratory_analysis
+- advanced_analysis
+- advanced_analysis
+- SQL_reports
 ## ⚙️ Tech Stack
 
 - **Database**: SQL server
@@ -47,19 +51,4 @@ Each dimension includes:
 
 ---
 
-## 📁 Project Structure
 
-```bash
-├── README.md
-├── /sql
-│   ├── create_tables.sql
-│   ├── insert_sample_data.sql
-│   ├── analysis_queries.sql
-├── /etl
-│   ├── extract.py
-│   ├── transform.py
-│   ├── load.py
-├── /docs
-│   ├── schema_diagram.png
-│   ├── star_schema_description.md
-├── requirements.txt
